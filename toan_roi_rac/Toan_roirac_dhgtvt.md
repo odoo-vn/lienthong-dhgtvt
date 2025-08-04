@@ -61,11 +61,51 @@ Toán rời rạc tại Đại học Giao thông Vận tải:
 
 Chúc bạn ôn tập tốt và đạt kết quả cao trong kỳ thi! 👍
 
-## Sơ đồ tư duy ôn tập Toán rời rạc
+## Biểu đồ kiến thức Toán rời rạc
 
-> **Sơ đồ tư duy dưới đây giúp bạn hệ thống hóa các kiến thức trọng tâm của môn Toán rời rạc, gồm hai phần lớn: Logic mệnh đề và Phương pháp đếm. Mỗi nhánh thể hiện các khái niệm, phép toán, dạng bài tập và phương pháp giải quyết thường gặp trong đề thi. Hãy sử dụng sơ đồ này để ôn tập, kiểm tra lại kiến thức và xác định các phần cần củng cố thêm.**
+```mermaid
+flowchart LR
+    A[ÔN THI LIÊN THÔNG - TOÁN RỜI RẠC]
+    A --> B[Logic Mệnh Đề]
+    A --> C[Phương Pháp Đếm]
+
+    B --> B1[Mệnh đề & Biểu thức logic]
+    B --> B2[Các phép toán logic]
+    B --> B3[Bảng chân lý]
+    B --> B4[Các dạng bài toán]
+    B2 --> B2a[Phủ định (NOT)]
+    B2 --> B2b[Hội (AND)]
+    B2 --> B2c[Tuyển (OR)]
+    B2 --> B2d[Tuyển loại trừ (XOR)]
+    B2 --> B2e[Kéo theo (IMPLIES)]
+    B2 --> B2f[Điều kiện hai chiều (IFF)]
+    B4 --> B4a[Kiểm tra tính chất]
+    B4 --> B4b[Kiểm tra tương đương]
+    B4 --> B4c[Tối thiểu hóa biểu thức]
+
+    C --> C1[Các nguyên lý đếm cơ bản]
+    C --> C2[Lý thuyết tổ hợp]
+    C1 --> C1a[Nguyên lý cộng]
+    C1 --> C1b[Nguyên lý nhân]
+    C1 --> C1c[Nguyên lý bao hàm và loại trừ]
+    C2 --> C2a[Tổ hợp (C(n, k))]
+    C2 --> C2b[Chỉnh hợp (A(n, k))]
+    C2 --> C2c[Hoán vị (P(n))]
+    C2 --> C2d[Bài toán đếm có điều kiện]
+```
 
 ---
 
-### SƠ ĐỒ TƯ DUY ÔN TẬP TOÁN RỜI RẠC
-![alt text](TRR-LT.png)
+## Cách sử dụng sơ đồ này:
+
+- **Làm Checklist:** Dùng như danh sách kiểm tra. Học xong phần nào, đánh dấu vào phần đó.
+- **Ôn tập nhanh:** Trước mỗi buổi học, nhìn vào sơ đồ để nhớ lại kiến thức liên quan.
+- **Kiểm tra kiến thức:** Chọn một "nhánh" bất kỳ trên sơ đồ (ví dụ: "Logic mệnh đề") và thử định nghĩa, cho ví dụ về nó. Nếu làm được, bạn đã nắm chắc phần đó.
+
+---
+
+## Lời khuyên ôn tập
+
+- **Thực hành:** Tự viết lại các dạng bài tập và phương pháp giải.
+- **Mô phỏng:** Tập mô phỏng các bước giải bài toán bằng tay trên giấy với bộ dữ liệu nhỏ.
+- **Tận dụng tài liệu:** Xem lại các ví dụ mẫu và đề thi thử để tham khảo cách trình bày và giải quyết vấn đề.
