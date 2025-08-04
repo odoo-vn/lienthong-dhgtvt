@@ -50,7 +50,40 @@
 ---
 
 ## Biểu đồ kiến thức CTDL&GT
-![alt text](ctdl&gt.png)
+
+```mermaid
+flowchart LR
+    A[ÔN THI LIÊN THÔNG - CTDL&GT]
+    A --> B[Cấu trúc dữ liệu]
+    A --> C[Giải thuật cốt lõi]
+    A --> D[Duyệt đồ thị]
+    A --> E[Phương pháp học tập]
+
+    B --> B1[Danh sách liên kết]
+    B1 --> B1a[Đơn: node, list, thêm/xóa/tìm/duyệt]
+    B1 --> B1b[Kép: previous, cập nhật hai con trỏ]
+    B --> B2[Ngăn xếp - Stack]
+    B2 --> B2a[LIFO, Push, Pop]
+    B2 --> B2b[Ứng dụng: DFS]
+    B --> B3[Hàng đợi - Queue]
+    B3 --> B3a[FIFO, Enqueue, Dequeue]
+    B3 --> B3b[Ứng dụng: BFS]
+
+    C --> C1[Sắp xếp]
+    C1 --> C1a[Bubble Sort]
+    C1 --> C1b[Selection Sort]
+    C1 --> C1c[Insertion Sort]
+    C --> C2[Tìm kiếm]
+    C2 --> C2a[Binary Search]
+    C2 --> C2b[BST - Cây tìm kiếm nhị phân]
+
+    D --> D1[DFS - Ngăn xếp]
+    D --> D2[BFS - Hàng đợi]
+
+    E --> E1[Trước khi học: Sử dụng biểu đồ/tóm tắt, chia nhỏ video/bài học]
+    E --> E2[Trong khi học: Tạm dừng video, ghi chép thông minh]
+    E --> E3[Sau khi học: Tóm tắt lại, luyện tập thêm]
+```
 
 ---
 
